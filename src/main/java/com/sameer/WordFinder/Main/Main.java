@@ -9,12 +9,12 @@ import com.sameer.WordFinder.ServiceGateway.OxfordServiceGateway;
 
 public class Main {
 
-
-	
 	public static void main(String args[]) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Input a String (any combination of letters)-(For testing purpose try to limit the length to 4.)");
+		System.out.println("Input a String (MAXIMUM 4 LETTERS PLEASE !!!!!-)");
+		System.out.println("Permutaion of 5 and above letters makes more than 100 API calls which is not allowed by Oxford APIs");
+		System.out.println("for FREE accounts!!. Please enter the String -\n");
 		String input = sc.next();
 		WordProcessor processor = new WordProcessor();
 		int startIndex = 0;
