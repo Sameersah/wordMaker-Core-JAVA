@@ -5,18 +5,18 @@ import java.util.List;
 
 public class WordProcessor {
 
-	List<String> permuteList;
+	private List<String> permuteList;
 	
-	public List<String> getPermuteList() {
+	public List<String> getListOfPermutedString(String word) {
+	    permute(word, 0, word.length()-1);
 		return permuteList;
 	}
-	public void setPermuteList(List<String> permuteList) {
-		this.permuteList = permuteList;
-	}
+
 	public WordProcessor() {
-		permuteList = new ArrayList<String>();
+		permuteList = new ArrayList<>();
 	}
-	public  void permute(String str, int l, int r){
+
+	private  void permute(String str, int l, int r){
 		if (l == r) 
 			permuteList.add(str);
         else
@@ -30,7 +30,7 @@ public class WordProcessor {
         } 
 	}
 	
-	public String swap(String a, int i, int j) 
+	private String swap(String a, int i, int j)
     { 
         char temp; 
         char[] charArray = a.toCharArray(); 
