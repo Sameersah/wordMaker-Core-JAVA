@@ -10,7 +10,7 @@ permutation of the letters.
 1. Open command prompt and change directory to a location where you want to clone the project. 
    (cd c:\WordMaker)
 1. Clone the project.
-   (git clone "https://github.com/Sameersah/wordMaker.git") 
+   (git clone "https://github.com/Sameersah/wordMaker-Core-JAVA.git") 
 1. Open your favourite IDE(should be Intellij!) and import the project as "Maven project".
 1. Run the project as JAVA application.
 1. Use console to give input. Don't give a string longer than 4 letters for testing. Permutation of 5 make API calls more than allowed for 
@@ -21,9 +21,9 @@ permutation of the letters.
    (git branch -b "feature/WhatIsYourChange")
 1. Do your changes.
 1. Add  remote repository.
-   (git remote add origin "https://github.com/Sameersah/wordMaker.git" )
+   (git remote add origin "https://github.com/Sameersah/wordMaker-Core-JAVA.git" )
 1. Push your changes.
-   (git push -u origin "https://github.com/Sameersah/wordMaker.git")
+   (git push -u origin "https://github.com/Sameersah/wordMaker-Core-JAVA.git")
    
 ## Contact Us
 Drop in a mail to sameer_sah@yahoo.co.in / suvankarmitra.me@gmail.com for any queries.
