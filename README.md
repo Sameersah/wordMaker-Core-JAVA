@@ -11,21 +11,21 @@ permutation of the letters.
    (cd c:\WordMaker)
 1. Clone the project.
    (git clone "https://github.com/Sameersah/wordMaker.git") 
-1. Open your favourite IDE(should be Intellij !) and import the project as "Maven project".
+1. Open your favourite IDE(should be Intellij!) and import the project as "Maven project".
 1. Run the project as JAVA application.
-1. Use console to give input. Don't give a string longer than 4 letters for testing. Permutaion of 5 make API calls more than allowed for 
+1. Use console to give input. Don't give a string longer than 4 letters for testing. Permutation of 5 make API calls more than allowed for 
    free Oxford API usage.
    
 ## Contributing
 1. Create a branch.
-   (git branch -b "feature/WhatisYourChange")
+   (git branch -b "feature/WhatIsYourChange")
 1. Do your changes.
-1. Add remote remote repository.
-   (git add remote origin "https://github.com/Sameersah/wordMaker.git" )
+1. Add  remote repository.
+   (git remote add origin "https://github.com/Sameersah/wordMaker.git" )
 1. Push your changes.
    (git push -u origin "https://github.com/Sameersah/wordMaker.git")
    
 ## Contact Us
-Drop in a mail to sameer_sah@yahoo.co.in for any quries.
+Drop in a mail to sameer_sah@yahoo.co.in / suvankarmitra.me@gmail.com for any queries.
 
 
